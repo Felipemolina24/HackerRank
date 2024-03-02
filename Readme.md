@@ -1,16 +1,20 @@
-Task
-Given an integer, , perform the following conditional actions:
+The included code stub will read an integer,n,from STDIN.
 
-If n  is odd, print Weird
-If n is even and in the inclusive range of 2  to 5, print Not Weird
-If n is even and in the inclusive range of 6 to 20, print Weird
-If n is even and greater than 20, print Not Weird
+Without using any string methods, try to print the following:
+123...n
+
+Note that "..." represents the consecutive values in between.
+
+Example
+n=5
+Print the string 12345.
+
 Input Format
 
-A single line containing a positive integer,n .
+The first line contains an integer n.
 
-Constraints
-   1 <=n <=100
-Output Format
-
-Print Weird if the number is weird. Otherwise, print Not Weird.
+Lo primero que haria es que necesitamos leer un numero entero n, desde la entrada estandar (STDIN).
+Este numero representa la cantidad de numeros que queremos imprimir en la secuencia.
+Luego, usaremos un bucle for para iterar desde 1 hasta n, inclusive. 
+En cada iteración del bucle, imprimiremos el valor actual de la variable de iteración seguido de un espacio en blanco.
+Esto nos dará la secuencia de números requerida, con cada número separado por un espacio en blanco.
